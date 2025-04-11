@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #0f172a;
+  background-color: white;
   color: white;
 }
 
@@ -15,6 +15,8 @@
 .navbar-logo {
   display: flex;
   align-items: center;
+  color: #555;
+  font-size: x-large;
 }
 
 .navbar-links {
@@ -25,8 +27,8 @@
 
 /* Base class for all navbar links */
 .navbar-link {
-  color: white;
-  text-decoration: none;
+  color: #555;
+  text-decoration: auto;
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -35,10 +37,5 @@
   text-decoration: underline;
 }
 
-/* Active link styling */
-.nav-link-active {
-  text-decoration: underline;
-  font-weight: 700;
-}
 
   

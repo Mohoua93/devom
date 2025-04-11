@@ -14,9 +14,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/" className="logo-text">
-          Devom
-        </Link>
+          <p>Devom</p>
       </div>
       <ul className="navbar-links">
         {navLinks.map((link) => (
