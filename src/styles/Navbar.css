@@ -7,6 +7,18 @@
   color: white;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: 1.6rem; /* Ajuste selon tes préférences */
+  transition: opacity 0.3s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.7;
+}
+
 .logo-img {
   height: 45px;
   object-fit: contain;
@@ -15,7 +27,7 @@
 .navbar-logo {
   display: flex;
   align-items: center;
-  color: #555;
+  color: #7a69d6;
   font-size: x-large;
 }
 
@@ -27,7 +39,7 @@
 
 /* Base class for all navbar links */
 .navbar-link {
-  color: #555;
+  color: #7a69d6;
   text-decoration: auto;
   font-weight: 500;
   transition: color 0.3s ease;

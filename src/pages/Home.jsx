@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/Home.css'; // à créer dans /styles si tu préfères
+import '../styles/Home.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -9,9 +10,9 @@ function Home() {
         <h2>Développeur Web Front-End</h2>
         <p>
           Passionné par la création d'expériences numériques fluides et modernes.
-          Bienvenue sur mon portfolio !
+          Bienvenue dans mon portfolio !
         </p>
-        <a href="#projects" className="btn">Voir mes projets</a>
+        <Link to="/projects" className="btn">Voir mes projets</Link>
       </div>
     </div>
   );
