@@ -11,7 +11,7 @@ const About = () => {
           Fraîchement diplômé, je me lance dans l'aventure avec enthousiasme et l'envie de construire des projets concrets et utiles.
         </p>
         <p>
-          Je maîtrise les bases solides du développement web moderne : <strong>Développeur full-stack</strong> je suis capable de gérer le frontend et le backend.
+          Je maîtrise les bases solides du développement web moderne : <strong>Développeur full-stack (HTML, CSS, JavaScript/React, Node.js)</strong> je suis capable de gérer le frontend et le backend.
           Je suis à l’écoute, curieux, et toujours prêt à apprendre pour proposer des solutions efficaces et sur mesure.
         </p>
         <p>

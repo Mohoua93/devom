@@ -19,23 +19,31 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <ul className="navbar-links">
-        {navLinks.map((link) => (
-          <li key={link.path}>
-            <Link
-              to={link.path}
-              className={`navbar-link ${
-                location.pathname === link.path ? "nav-link-active" : ""
-              }`}
-              aria-current={
-                location.pathname === link.path ? "page" : undefined
-              }
-            >
-              {link.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div className="navbar-content">
+        {/* Numéro de téléphone cliquable */}
+        <a href="tel:0612345678" className="navbar-phone">
+          📞 07 81 62 80 93
+        </a>
+
+        <ul className="navbar-links">
+          {navLinks.map((link) => (
+            <li key={link.path}>
+              <Link
+                to={link.path}
+                className={`navbar-link ${
+                  location.pathname === link.path ? "nav-link-active" : ""
+                }`}
+                aria-current={
+                  location.pathname === link.path ? "page" : undefined
+                }
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 }
+

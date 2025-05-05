@@ -1,3 +1,15 @@
+.navbar-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* espace entre téléphone et liens */
+}
+
+.navbar-phone {
+  font-weight: 500;
+  color: #7a69d6;
+  text-decoration: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
