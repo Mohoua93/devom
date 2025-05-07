@@ -15,9 +15,10 @@ export default function Contact() {
 
   // Choix de l'URL selon l'environnement
   const BACKEND_URL =
-    process.env.NODE_ENV === 'production'
-      ? 'https://api.devom.com/contact' // ← Remplace par l'URL réelle de ton backend en ligne
-      : 'http://localhost:5000/contact';
+  process.env.NODE_ENV === 'production'
+    ? 'https://devom.vercel.app/api/contact'
+    : 'http://localhost:3001/api/contact';
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
