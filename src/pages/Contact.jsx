@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import '../styles/Contact.css'; // ← Assure-toi d'importer le CSS
+import '../styles/Contact.css';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -13,11 +13,17 @@ export default function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Choix de l'URL selon l'environnement
+  const BACKEND_URL =
+    process.env.NODE_ENV === 'production'
+      ? 'https://api.devom.com/contact' // ← Remplace par l'URL réelle de ton backend en ligne
+      : 'http://localhost:5000/contact';
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5000/contact', {
+      const response = await fetch(BACKEND_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -83,4 +89,3 @@ export default function Contact() {
     </div>
   );
 }
-

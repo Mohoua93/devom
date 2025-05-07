@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: 'https://www.devom.com' }));
 app.use(express.json());
 
 app.post('/contact', async (req, res) => {
@@ -22,11 +22,13 @@ app.post('/contact', async (req, res) => {
     });
 
     await transporter.sendMail({
-      from: email,
+      from: process.env.MAIL_USER,
       to: process.env.MAIL_USER,
+      replyTo: email,
       subject: `Message de ${name} via Devom`,
       text: message,
     });
+    
 
     res.status(200).json({ success: true });
   } catch (error) {
