@@ -37,7 +37,7 @@
   @media (max-width: 768px) {
 
     .about {
-      height: 1100px;
+      height: auto;
     }
 
     .about-container {
