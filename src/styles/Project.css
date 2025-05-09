@@ -1,7 +1,7 @@
 .projet-container {
   padding: 2rem;
   text-align: center;
-  background-color: #0b0c0c;
+  background-color: #4f7eb2;
   margin: 20px;
   border-radius: 20px;
 }
@@ -19,7 +19,7 @@
   display: block;
   width: 100%;
   aspect-ratio: 1.5 / 1; /* adapte le ratio si tu veux */
-  background-color: #ffffff;
+  background-color: #4f7eb2;
   border-radius: 1rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   overflow: hidden;

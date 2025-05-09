@@ -5,7 +5,7 @@
     height: 80vh;
     text-align: center;
     padding: 0 20px;
-    background-color: #0b0c0c;
+    background-color: #4f7eb2;
     margin: 20px;
     border-radius: 20px;
   }
@@ -38,7 +38,7 @@
   .btn {
     padding: 12px 24px;
     background-color: #ffffff;
-    color: #0b0c0c;
+    color: #4f7eb2;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;

@@ -6,7 +6,7 @@
 
 .navbar-phone {
   font-weight: 500;
-  color: #0b0c0c;
+  color: #4f7eb2;
   text-decoration: none;
 }
 
@@ -44,12 +44,12 @@
 .navbar-logo {
   display: flex;
   align-items: center;
-  color: #0b0c0c;
+  color: #4f7eb2;
   font-size: x-large;
 }
 
 .navbar-link {
-  color: #0b0c0c;
+  color: #4f7eb2;
   text-decoration: auto;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -99,14 +99,14 @@ body.body-compact {
   background: none;
   border: none;
   cursor: pointer;
-  color: #0b0c0c;
+  color: #4f7eb2;
 }
 
 /* Téléphone à droite */
 .navbar-phone-right {
   font-size: medium;
   font-weight: 500;
-  color: #0b0c0c;
+  color: #4f7eb2;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -118,7 +118,7 @@ body.body-compact {
   transform: translateX(-50%);
   font-size: 1.5rem;
   font-weight: bold;
-  color: #0b0c0c;
+  color: #4f7eb2;
 }
 
 /* Conteneur global */
