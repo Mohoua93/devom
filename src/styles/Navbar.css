@@ -160,6 +160,11 @@ body.body-compact {
   .burger-button {
     display: block;
   }
+
+  /* Masquer le numéro de téléphone sur mobile */
+  .navbar-phone-right {
+    display: none;
+  }
 }
 
 /* Evite débordement sur mobile réel */
@@ -180,6 +185,7 @@ body {
     font-size: 0.75rem;
   }
 }
+
 
 
 
