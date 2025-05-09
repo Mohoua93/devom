@@ -1,7 +1,7 @@
 .projet-container {
   padding: 2rem;
   text-align: center;
-  background-color: #bedbf8;
+  background-color: #0b0c0c;
   margin: 20px;
   border-radius: 20px;
 }
@@ -13,7 +13,7 @@
   margin-top: 2rem;
 }
 .title-project {
-  color: #7a69d6;
+  color: #ffffff;
 }
 .project-card {
   display: block;
