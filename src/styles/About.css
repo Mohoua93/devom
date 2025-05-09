@@ -32,4 +32,10 @@
     color: #7a69d6;
     margin-top: 30px;
   }
-  
+
+
+  @media (max-width: 768px) {
+    .about-container {
+      height: 950px;
+    }
+  }
